@@ -22,25 +22,30 @@
 
 
 
-# 📖 go4ever <a name="about-project"></a>
-**leChart** is an application developed using C++ as part of a university assignment. This project was designed to demonstrate core programming skills and knowledge acquired throughout the course. 
+# 📖 leChart <a name="about-project"></a>
+**leChart** is a simple application developed using Python, integrated with the Streamlit package to display and analyze CSV file data, specifically related to DDOS Attack. The application also uses pyecharts to generate visually appealing charts, making the data more engaging and easier to understand. 
+
+- **This project is part of a university assignment.**
 
 ## ⚙️ Production (done)<a name="production"></a>
-This project progressed over the **course of one weeks** before its public release, following several key stages: starts with finding the core idea, implementing it using C++, and refining the functionality to meet the project requirements.
+This project progressed over the **course of one weeks** before its public release, following several key stages: starts with finding the core idea, implementing it using Python language, and refining the functionality to meet the project requirements.
 
 ### Tech Stack <a name="tech-stack"></a>
-- Basic C++ knowledge
-- NaN
+- Basic Python knowledge.
+- Streamlit packages.
+- Pyecharts packages.
+
 ### Key Features <a name="key-features"></a>
-- **Minimalist Design**: Utilizes basic C++ syntaxes.
-- **NaN**:NaN
+- **CSV Data Visualization**: Displays cybercrime-related data from CSV files.
+- **Interactive Web Interface**: Built with Streamlit, user-friendly interface for exploring the data.
+- **Dynamic Chart**: Utilizes Pyecharts to create visually engaging charts that make complex data easier to understand.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Sadly, this project is **not available** on any website. 
+Sadly, this project is **not available** on any website. But you can make it live using **Streamlit live website**, or create local copy on your own.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -56,15 +61,17 @@ git clone https://github.com/d1azdn/lechart
 ```
 
 ### Install
-- NaN
+- You should install streamlit and pyecharts first.
 ```sh
-NaN
+pip3 install streamlit
+pip3 install pyecharts
 ```
 
 ### Usage
+- Make sure you have the csv file (univ file.)
 - To run the project, run the following commands:
 ```sh
-Use 'Code::blocks' apps to run this program.
+streamlit run main.py
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
